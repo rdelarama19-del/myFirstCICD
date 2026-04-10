@@ -3,14 +3,14 @@ name: .NET 9 MVC CI/CD Pipeline
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 env:
   DOTNET_VERSION: '9.0.x'
-  SOLUTION: 'AdminCore.sln'
+  SOLUTION: 'firstCICD.sln'
   PUBLISH_DIR: './publish'
 
 jobs:
